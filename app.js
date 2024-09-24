@@ -12,6 +12,7 @@ const removeFromCartRoute = require("./route/removeFromCartRoute");
 const addProductRoute = require("./route/addProductRoute");
 const removeProductRoute = require("./route/removeProductRoute");
 const uploadRoute = require("./route/uploadRoute");
+
 const cors = require("cors");
 
 const app = express();
@@ -38,6 +39,5 @@ app.use("/api/v1", removeFromCartRoute);
 app.use("/api/v1", addProductRoute);
 app.use("/api/v1", removeProductRoute);
 app.use("/api/v1", uploadRoute);
-app.use("/images", express.static("public/images"));
 
 module.exports = app;
