@@ -1,16 +1,20 @@
 const mongoose = require("mongoose");
 
-const Product = mongoose.model("Product", {
-  id: { type: Number, required: true },
+// Define the Product schema
+const productSchema = new mongoose.Schema({
+  id: { type: Number, required: true, unique: true }, // Make sure `id` is unique
   name: { type: String, required: true },
   description: { type: String, required: true },
   image: { type: String, required: true },
   category: { type: String, required: true },
-  new_price: { type: Number },
-  old_price: { type: Number },
+  new_price: { type: Number, required: true }, // Consider making this required
+  old_price: { type: Number, required: false }, // Optional
   date: { type: Date, default: Date.now },
-  avilable: { type: Boolean, default: true },
+  available: { type: Boolean, default: true }, // Fix the spelling: `available`
 });
 
-// Export the Users model
+// Create the Product model
+const Product = mongoose.model("Product", productSchema);
+
+// Export the Product model
 module.exports = Product;
