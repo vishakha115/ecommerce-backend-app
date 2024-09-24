@@ -38,6 +38,6 @@ app.use("/api/v1", removeFromCartRoute);
 app.use("/api/v1", addProductRoute);
 app.use("/api/v1", removeProductRoute);
 app.use("/api/v1", uploadRoute);
-app.use("/images", express.static("upload/images"));
+app.use("/images", express.static("public/images"));
 
 module.exports = app;
