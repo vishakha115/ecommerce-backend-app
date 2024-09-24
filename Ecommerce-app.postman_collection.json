@@ -405,7 +405,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n  \"username\": \"Faizan Shaikh\",\r\n  \"email\": \"sf48116@gmail.com\",\r\n  \"password\": \"anotherSecurePassword123\"\r\n}\r\n",
+									"raw": "{\r\n  \"username\": \"Izan Code\",\r\n  \"email\": \"izancode11@gmail.com\",\r\n  \"password\": \"anotherSecurePassword123\"\r\n}\r\n",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -413,12 +413,13 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:4000/api/v1/signup",
-									"protocol": "http",
+									"raw": "https://ecommerce-backend-app-sigma.vercel.app/api/v1/signup",
+									"protocol": "https",
 									"host": [
-										"localhost"
+										"ecommerce-backend-app-sigma",
+										"vercel",
+										"app"
 									],
-									"port": "4000",
 									"path": [
 										"api",
 										"v1",
@@ -435,7 +436,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n  \"email\": \"sf48116@gmail.com\",\r\n  \"password\": \"anotherSecurePassword123\"\r\n}\r\n",
+									"raw": "{\r\n  \"email\": \"izancode11@gmail.com\",\r\n  \"password\": \"anotherSecurePassword123\"\r\n}\r\n",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -443,12 +444,13 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:4000/api/v1/login",
-									"protocol": "http",
+									"raw": "https://ecommerce-backend-app-sigma.vercel.app/api/v1/login",
+									"protocol": "https",
 									"host": [
-										"localhost"
+										"ecommerce-backend-app-sigma",
+										"vercel",
+										"app"
 									],
-									"port": "4000",
 									"path": [
 										"api",
 										"v1",
@@ -469,12 +471,13 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "http://localhost:4000/api/v1/allproducts",
-									"protocol": "http",
+									"raw": "https://ecommerce-backend-app-sigma.vercel.app/api/v1/allproducts",
+									"protocol": "https",
 									"host": [
-										"localhost"
+										"ecommerce-backend-app-sigma",
+										"vercel",
+										"app"
 									],
-									"port": "4000",
 									"path": [
 										"api",
 										"v1",
@@ -490,12 +493,13 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "http://localhost:4000/api/v1/newcollections",
-									"protocol": "http",
+									"raw": "https://ecommerce-backend-app-sigma.vercel.app/api/v1/newcollections",
+									"protocol": "https",
 									"host": [
-										"localhost"
+										"ecommerce-backend-app-sigma",
+										"vercel",
+										"app"
 									],
-									"port": "4000",
 									"path": [
 										"api",
 										"v1",
@@ -511,12 +515,13 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "http://localhost:4000/api/v1/popularinwomen",
-									"protocol": "http",
+									"raw": "https://ecommerce-backend-app-sigma.vercel.app/api/v1/popularinwomen",
+									"protocol": "https",
 									"host": [
-										"localhost"
+										"ecommerce-backend-app-sigma",
+										"vercel",
+										"app"
 									],
-									"port": "4000",
 									"path": [
 										"api",
 										"v1",
@@ -541,12 +546,13 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:4000/api/v1/relatedproducts",
-									"protocol": "http",
+									"raw": "https://ecommerce-backend-app-sigma.vercel.app/api/v1/relatedproducts",
+									"protocol": "https",
 									"host": [
-										"localhost"
+										"ecommerce-backend-app-sigma",
+										"vercel",
+										"app"
 									],
-									"port": "4000",
 									"path": [
 										"api",
 										"v1",
@@ -577,12 +583,13 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:4000/api/v1/addtocart",
-									"protocol": "http",
+									"raw": "https://ecommerce-backend-app-sigma.vercel.app/api/v1/addtocart",
+									"protocol": "https",
 									"host": [
-										"localhost"
+										"ecommerce-backend-app-sigma",
+										"vercel",
+										"app"
 									],
-									"port": "4000",
 									"path": [
 										"api",
 										"v1",
@@ -613,12 +620,13 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:4000/api/v1/getcart",
-									"protocol": "http",
+									"raw": "https://ecommerce-backend-app-sigma.vercel.app/api/v1/getcart",
+									"protocol": "https",
 									"host": [
-										"localhost"
+										"ecommerce-backend-app-sigma",
+										"vercel",
+										"app"
 									],
-									"port": "4000",
 									"path": [
 										"api",
 										"v1",
@@ -649,12 +657,13 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:4000/api/v1/removefromcart",
-									"protocol": "http",
+									"raw": "https://ecommerce-backend-app-sigma.vercel.app/api/v1/removefromcart",
+									"protocol": "https",
 									"host": [
-										"localhost"
+										"ecommerce-backend-app-sigma",
+										"vercel",
+										"app"
 									],
-									"port": "4000",
 									"path": [
 										"api",
 										"v1",
@@ -679,12 +688,13 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:4000/api/v1/addproduct",
-									"protocol": "http",
+									"raw": "https://ecommerce-backend-app-sigma.vercel.app/api/v1/addproduct",
+									"protocol": "https",
 									"host": [
-										"localhost"
+										"ecommerce-backend-app-sigma",
+										"vercel",
+										"app"
 									],
-									"port": "4000",
 									"path": [
 										"api",
 										"v1",
@@ -709,12 +719,13 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:4000/api/v1/removeproduct",
-									"protocol": "http",
+									"raw": "https://ecommerce-backend-app-sigma.vercel.app/api/v1/removeproduct",
+									"protocol": "https",
 									"host": [
-										"localhost"
+										"ecommerce-backend-app-sigma",
+										"vercel",
+										"app"
 									],
-									"port": "4000",
 									"path": [
 										"api",
 										"v1",
@@ -735,17 +746,18 @@
 										{
 											"key": "product",
 											"type": "file",
-											"src": "/C:/Users/Atlas/Downloads/B.Sc Finance web View.png"
+											"src": "/C:/Users/Atlas/Downloads/image 10 (1).jpg"
 										}
 									]
 								},
 								"url": {
-									"raw": "http://localhost:4000/api/v1/upload",
-									"protocol": "http",
+									"raw": "https://ecommerce-backend-app-sigma.vercel.app/api/v1/upload",
+									"protocol": "https",
 									"host": [
-										"localhost"
+										"ecommerce-backend-app-sigma",
+										"vercel",
+										"app"
 									],
-									"port": "4000",
 									"path": [
 										"api",
 										"v1",
@@ -763,12 +775,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:4000/",
-							"protocol": "http",
+							"raw": "https://ecommerce-backend-app-sigma.vercel.app/",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"ecommerce-backend-app-sigma",
+								"vercel",
+								"app"
 							],
-							"port": "4000",
 							"path": [
 								""
 							]
